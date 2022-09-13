@@ -38,6 +38,12 @@ function Navbar() {
     )
 }
 
+function MainContent() {
+    return (
+        <h1>I'm learning React!</h1>
+    )
+}
+
 ReactDOM.render(
     <Navbar />,
     document.getElementById("root")
